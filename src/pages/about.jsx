@@ -1,5 +1,4 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import classes from 'src/styles/Home.module.css'
 import { Footer } from "src/components/Footer"
 import { Header } from 'src/components/Header'
