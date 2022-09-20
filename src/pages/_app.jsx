@@ -1,7 +1,10 @@
-import 'src/styles/globals.css'
-import Head from 'next/head'
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable react/prop-types */
+import "src/styles/globals.css";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
+
   return (
     <>
       <Head>
@@ -13,4 +16,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default MyApp
+export default MyApp;

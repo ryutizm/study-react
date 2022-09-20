@@ -1,5 +1,6 @@
+import React from "react";
 import Link from "next/link";
-import classes from 'src/components/Header/Header.module.css'
+import classes from "src/components/Header/Header.module.css";
 
 export function Header() {
   return (
@@ -10,6 +11,6 @@ export function Header() {
       <Link href="/about">
         <a className={classes.anchor}>About</a>
       </Link>
-  </header>
-  )
+    </header>
+  );
 }
