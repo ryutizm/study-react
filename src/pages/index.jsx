@@ -7,6 +7,7 @@ import { Header } from "src/components/Header";
 import { Main } from "src/components/Main";
 import { useCallback, useEffect, useState } from "react";
 
+// eslint-disable-next-line no-unused-vars
 const Home = (props) => {
   const [posts, setPosts] = useState([]);
 
@@ -33,7 +34,11 @@ const Home = (props) => {
           return <li key={post.id}>{post.title}</li>;
         })}
       </ol>
+
+      <Main />
+      <Footer />
     </div>
+
   );
 };
 
