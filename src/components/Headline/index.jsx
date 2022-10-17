@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import React from "react";
 import classes from "src/components/Headline/Headline.module.css";
 
 export const Headline= (props) => {
